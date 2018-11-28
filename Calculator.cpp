@@ -6,10 +6,26 @@
 using namespace std;
 int main()
 {
-	/*тут будет скелет программы*/
-cout << MySum(a,b) << endl;
-cout << MySub(a,b) << endl;
-cout << Del(a,b) << endl;
-cout << Umn(a,b) << endl;
-return 0;
+	double a,b;
+	int n;
+	cout << "Menu: ";
+	cout << "Enter 2 numbers: ";
+	cin >> a >> b;
+	cout << "1. Summa";
+	cout << "2. Vichitan";
+	cout << "3. Delenie";
+	cout << "4. Umnozhenie";
+	cout << "Enter action:";
+	cin >> n;
+	switch (n)
+	{
+		case '1':
+		cout << MySum(a,b) << endl;
+		case '2':
+		cout << MySub(a,b) << endl;
+		case '3':
+		cout << Del(a,b) << endl;
+		case '4':
+		cout << Umn(a,b) << endl;
+		return 0;
 }
