@@ -7,7 +7,9 @@ using namespace std;
 int main()
 {
 	/*тут будет скелет программы*/
-cout << MySum(n) << endl;
-cout << MySub(n) << endl;
+cout << MySum(a,b) << endl;
+cout << MySub(a,b) << endl;
+cout << Del(a,b) << endl;
+cout << Umn(a,b) << endl;
 return 0;
 }
