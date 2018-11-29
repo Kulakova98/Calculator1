@@ -16,12 +16,13 @@ cout « "2. Vichitan";
 cout « "3. Delenie"; 
 cout « "4. Umnozhenie"; 
 cout << "5. Pow";
+cout << "6. Exit";
 cout « "Enter action:"; 
 cin » n; 
 switch (n) 
 { 
 case '1': 
-cout « MySum(a,b) « endl; 
+cout « MySum(a,b) « endl; 		
 case '2': 
 cout « MySub(a,b) « endl; 
 case '3': 
