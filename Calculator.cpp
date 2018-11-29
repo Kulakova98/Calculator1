@@ -15,6 +15,7 @@ cout « "1. Summa";
 cout « "2. Vichitan"; 
 cout « "3. Delenie"; 
 cout « "4. Umnozhenie"; 
+cout << "5. Pow";
 cout « "Enter action:"; 
 cin » n; 
 switch (n) 
@@ -27,5 +28,7 @@ case '3':
 cout « Del(a,b) « endl; 
 case '4': 
 cout « Umn(a,b) « endl; 
+case '5': 
+cout << Pow(a) << endl;
 return 0; 
 }
