@@ -6,11 +6,11 @@ double MySum(double a, double b)
 {
 return a + b;
 }
-double MySub(double a, double b)
+double MySub(double a, double b)		//function vichitaniya
 {
 return a - b;
 }
-double Del(double a, double b);
+double Del(double a, double b);			//func deleniya
 {
 	return a/b;
 	if b==0

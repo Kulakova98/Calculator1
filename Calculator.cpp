@@ -24,8 +24,8 @@ cout « MySum(a,b) « endl;
 case '2': 
 cout « MySub(a,b) « endl; 
 case '3': 
-cout « Del(a,b) « endl; 
+cout « Del(a,b) « endl; //Function deleniya
 case '4': 
-cout « Umn(a,b) « endl; 
-return 0; 
+cout « Umn(a,b) « endl; //Function umnozheniya
+return 0; 	
 }
