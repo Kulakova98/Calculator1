@@ -13,10 +13,10 @@ return a - b;
 double Del(double a, double b);			//func deleniya
 {
 	return a/b;
-	if b==0
+	if b==0							//
 		return 0;
 }
-double Umn(double a, double b);
+double Umn(double a, double b);			//
 {
 	return a*b;
 }

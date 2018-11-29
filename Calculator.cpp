@@ -14,8 +14,8 @@ cin » a » b;
 cout « "1. Summa"; 
 cout « "2. Vichitan"; 
 cout « "3. Delenie"; 
-cout « "4. Umnozhenie"; 
-cout « "Enter action:"; 
+cout « "4. Umnozhenie"; //
+cout « "Enter action:"; //
 cin » n; 
 switch (n) 
 { 
